@@ -1,38 +1,26 @@
 # Wwaf 
 > 红队Waf识别工具
+> 
+> 支持识别常见Waf 
+
+
+[ 不能识别点这里 ]( https://github.com/ox01024/Wwaf/issues/1 )
 
 ```bash
-Wwaf -t target.com
+Wwaf -u target.com
+Wwaf -f url.txt
+cat url.txt | Wwaf
 ```
 
-目前支持
-- 知道创宇云安全-加速乐
-- 创宇盾
-- 华为云Web应用防火墙
-- 360磐云
-- 深信服云盾
-- 阿里云盾
-- 网宿安全平台
-- 奇安信云WAF(安域)
-- 360云WAF
-- 福建万物互联
-- 阿里云waf
-- 玄武盾
-- 阿里云盾
-- 上海云盾
-- 云盾智慧waf(奇安信云WAF套壳)IPV6
-- 创宇-加速乐
-- 蓝盾云防线
-- 上海云盾
-- 玄武盾(历史版本)
-- 30网安云防御
-- 电信云堤
-- 上海观安
-- 等保云防
-- 绿盟云WAF
-- 京东云waf
-- 知道创宇云安全-加速乐
-- 奇安信云WAF(安域)
-- 云盾智慧waf(奇安信云WAF套壳)
-- 长沙智为红网云
-- 创宇盾
+
+```banner
+ _      __            ___
+| | /| / /    _____ _/ _/
+| |/ |/ / |/|/ / _ '/ _/
+|__/|__/|__,__/\_,_/_/  0.2.0
+
+                github.com/ox01024/Wwaf
+
+[WRN] Use with caution. You are responsible for your actions.
+[WRN] Developers assume no liability and are not responsible for any misuse or damage.
+```
